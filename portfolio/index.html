@@ -277,25 +277,21 @@
                     </p>
                     </div>
                     <div class="col-lg-12 col-md-8 col-sm-6">
-                        
                     <p class="contactmij">Contact mij&lowbar;</p>
-                        
-                        <?=$thankYou ?>
-                        
-                        <form id="contact_form" action="php/contact.php" method="POST" enctype="multipart/form-data">
+                        <form id="contact_form" action="" method="POST" enctype="multipart/form-data">
                             <div class="row">
                                 <label for="name"></label><br />
-                                <input id="name" class="input" name="sender" type="text" placeholder="Naam" value=""/><br />
+                                <input id="name" class="input" name="name" type="text" placeholder="Naam" value=""/><br />
                             </div>
                             <div class="row">
                                 <label for="email"></label><br />
-                                <input id="email" class="input" name="senderEmail" type="text" placeholder="E-mail" value=""/><br />
+                                <input id="email" class="input" name="email" type="text" placeholder="E-mail" value=""/><br />
                             </div>
                             <div class="row">
                                 <label for="message"></label><br />
                                 <textarea id="message" class="input" name="message" placeholder="Tekstje" rows="4"></textarea><br />
                             </div>
-                            <input id="submit_button" action="submit" type="submit" value="&lt;Verzenden&gt;"/>
+                            <input id="submit_button" action="#" type="submit" value="&lt;Verzenden&gt;"/>
                         </form>
                 </div>
                 </div>
